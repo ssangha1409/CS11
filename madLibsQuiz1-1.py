@@ -1,5 +1,5 @@
 #This is a MadLibs project 
-#My name: 
+#My name: Sahib Sangha 
 #Who I collaborated with: 
 
 print("************************************")
@@ -41,4 +41,5 @@ if play = "y"
     else:
     print("Goodbye!")
     
+
     
