@@ -1,6 +1,5 @@
 #This is a MadLibs project 
-#My name: Sahib Sangha 
-#Who I collaborated with: 
+#My name: Sahib Sangha  
 
 print("************************************")
 print("|                                  |")
@@ -28,11 +27,11 @@ if play == "y":
     
     print("""
     Over break I am going camping with """ +person_name+""". It is important 
-    to be prepared when camping at place , so I made sure to pack a 
+    to be prepared when camping at """ +place+""", so I made sure to pack a 
     sleeping bag, flashlight, and a """ +noun_1+""". The possibility of seeing a 
     """ +animal_1+""" makes me feel """ +adjective_1+""". I am excited to go 
-    hiking on the """ +adjective_2+""" trail. If I see a """ +adjective_3 +""" """ +animal_2+"""
-    on the hike, I will take it home as my new pet! The best part of 
+    hiking on the """ +adjective_2+""" trail. If I see a """ +adjective_3 +""" 
+    """ +animal_2+""" on the hike, I will take it home as my new pet! The best part of 
     camping is eating """ +food+""" by the campfire!
     """)
     
@@ -43,4 +42,5 @@ if play == "y":
     
 
     
+
 
