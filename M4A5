@@ -38,5 +38,5 @@ Here is a Christmas Tree!
 choice = input("Would you like to see art 1 or art 2?: ")
 if choice == "1":
     print (art1)
-if choice == "2":
+elif choice == "2":
     print (art2)
