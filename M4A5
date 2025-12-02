@@ -1,4 +1,35 @@
+print("This is the circle area calculator! ")
 radius_str = input("What is the radius of your circle?: ")
 radius = float(radius_str)
 area = 3.14*radius*radius
 print("The area of your circle is: " + str(area))
+
+print("This is the expression solver for (a-b)+(a*b)! ")
+def solve_expression(a, b):
+    return (a-b) + (a*b)
+a = int(input("What is your a value?: "))
+b = int(input("What is your b value?: "))
+result = solve_expression(a, b)
+print("The answer is: " + str(result))
+
+art1 = """
+|\/\/\/|
+|      |    Here is Bart Simpson!
+|      |
+| (o)(o)
+C      _)
+ | ,___|
+ |   /
+/____\
+"""
+art2 = """
+      /\
+     /\*\
+    /\0\*\
+   /*/\/\/\      Here is a Christmas Tree!
+  /\0\/\/\/\
+ /\*\/\*\/\/\ 
+/\0\/\/*/\/0/\
+      ||
+      ||
+      ||"""
