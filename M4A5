@@ -1,1 +1,4 @@
-
+radius_str = input("What is the radius of your circle?: ")
+radius = float(radius_str)
+area = math.pi*radius*radius
+print("The area of your circle is: " + str(area))
